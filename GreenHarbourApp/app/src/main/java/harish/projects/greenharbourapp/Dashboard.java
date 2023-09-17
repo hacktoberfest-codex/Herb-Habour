@@ -10,7 +10,7 @@ import com.google.firebase.database.core.view.View;
 
 public class Dashboard extends AppCompatActivity {
 
-    Button scan, profile, addHerbs, buy, games, community, website, logout;
+    Button scan, profile, addHerbs, view, games, community, website, logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class Dashboard extends AppCompatActivity {
         scan = findViewById(R.id.scan_btn);
         profile = findViewById(R.id.profile_btn);
         addHerbs = findViewById(R.id.herbs_btn);
-        buy = findViewById(R.id.buy_btn);
+        view = findViewById(R.id.view_btn);
         games = findViewById(R.id.games_btn);
         community = findViewById(R.id.community_btn);
         website = findViewById(R.id.website_btn);
@@ -54,6 +54,51 @@ public class Dashboard extends AppCompatActivity {
             public void onClick(android.view.View v) {
 
                 Intent intent = new Intent(getApplicationContext(), UploadPlant.class);
+                startActivity(intent);
+                finish();
+
+            }
+        });
+
+
+        view.setOnClickListener(new android.view.View.OnClickListener() {
+            @Override
+            public void onClick(android.view.View v) {
+
+                Intent intent = new Intent(getApplicationContext(), Plant_Description.class);
+                startActivity(intent);
+                finish();
+
+            }
+        });
+
+        games.setOnClickListener(new android.view.View.OnClickListener() {
+            @Override
+            public void onClick(android.view.View v) {
+
+                Intent intent = new Intent(getApplicationContext(), Quiz.class);
+                startActivity(intent);
+                finish();
+
+            }
+        });
+
+        logout.setOnClickListener(new android.view.View.OnClickListener() {
+            @Override
+            public void onClick(android.view.View v) {
+
+                Intent intent = new Intent(getApplicationContext(), Login.class);
+                startActivity(intent);
+                finish();
+
+            }
+        });
+
+        community.setOnClickListener(new android.view.View.OnClickListener() {
+            @Override
+            public void onClick(android.view.View v) {
+
+                Intent intent = new Intent(getApplicationContext(), Feedback.class);
                 startActivity(intent);
                 finish();
 

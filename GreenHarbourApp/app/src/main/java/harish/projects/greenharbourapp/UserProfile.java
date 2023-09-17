@@ -40,13 +40,23 @@ public class UserProfile extends AppCompatActivity {
     private void showAllUserData(){
         Intent intent = getIntent();
 
+        /*
         String user_username = intent.getStringExtra("username");
         String user_name = intent.getStringExtra("name");
         String user_email = intent.getStringExtra("email");
         String user_phoneNo = intent.getStringExtra("phoneNo");
         String user_password = intent.getStringExtra("password");
 
-        /*
+        fullNameLabel.setText(user_name);
+        userNameLabel.setText(user_username);
+        fullName.getEditText().setText(user_name);
+        email.getEditText().setText(user_email);
+        phoneNo.getEditText().setText(user_phoneNo);
+        password.getEditText().setText(user_password);
+
+         */
+
+
         _USERNAME = intent.getStringExtra("username");
         _NAME = intent.getStringExtra("name");
         _EMAIL = intent.getStringExtra("email");
@@ -59,14 +69,9 @@ public class UserProfile extends AppCompatActivity {
         email.getEditText().setText(_EMAIL);
         phoneNo.getEditText().setText(_PHONENO);
         password.getEditText().setText(_PASSWORD);
-        */
 
-        fullNameLabel.setText(user_name);
-        userNameLabel.setText(user_username);
-        fullName.getEditText().setText(user_name);
-        email.getEditText().setText(user_email);
-        phoneNo.getEditText().setText(user_phoneNo);
-        password.getEditText().setText(user_password);
+
+
 
     }
 
