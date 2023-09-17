@@ -285,7 +285,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/googlesans_bold"
-                        android:text="Community"
+                        android:text="Feedback"
                         android:background="#00000000"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
