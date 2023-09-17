@@ -68,6 +68,33 @@ https://github.com/ITER-SIH/Team-70/assets/121545576/58f929d8-ed19-4467-a20f-adb
 * Engaging Games and Quizzes: Interactive games and quizzes will captivate individuals of all age groups, encouraging them to join our community. Participants will not only nurture nature but also find opportunities to earn a living from their involvement.
 * Easy to use
 
+# Dependencies
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'com.google.firebase:firebase-database:20.2.2'
+    implementation 'com.google.firebase:firebase-auth:22.1.2'
+    implementation 'com.google.firebase:firebase-auth-ktx:22.1.1'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.1.0'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
+    implementation 'com.google.firebase:firebase-storage:20.2.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.google.firebase:firebase-firestore:24.8.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-analytics")
+    implementation 'com.github.bumptech.glide:glide:4.0.0-RC0'
+    implementation 'com.mikhaellopez:circularimageview:4.3.1'
+
+
 
  
 
