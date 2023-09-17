@@ -1,4 +1,4 @@
-package harish.projects.greenharbour;
+package harish.projects.greenharbourapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
