@@ -26,10 +26,11 @@ Domain Bucket	MedTech / BioTech / HealthTech
 
 
 
-## Tech stacks 💻
+## Tech stacks Lite 💻
 * Tensor flow
 * JAVA
 * XML
+* MYSQL
 
 ## DataBase
 * Link 🔗: https://www.kaggle.com/datasets/ichhadhari/leaf-images
