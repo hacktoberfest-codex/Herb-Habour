@@ -139,11 +139,6 @@ public class SignUp extends AppCompatActivity {
         reference.child(username).setValue(helperClass);
 
         Toast.makeText(this,"Your Account has been created successfully!", Toast.LENGTH_SHORT).show();
-/*
-        Intent intent = new Intent(getApplicationContext(), VerifyPhoneNo.class);
-        intent.putExtra("phoneNo", phoneNo);
-        startActivity(intent);
-*/
 
         Intent intent = new Intent(getApplicationContext(), UserProfile.class);
         startActivity(intent);

@@ -108,34 +108,6 @@ public class Login extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-
-                /*
-                if (dataSnapshot.exists()) {
-                    String passwordFromDB = dataSnapshot.child(userEnteredUsername).child("password").getValue(String.class);
-                    if (passwordFromDB.equals(userEnteredPassword)){
-                        Intent intent = new Intent(getApplicationContext(), UserProfile.class);
-                        startActivity(intent);
-                        finish();
-                    }
-                    else {
-
-                        password.setError("Wrong Password");
-                        password.requestFocus();
-                    }
-                }
-                else {
-
-                    username.setError("No such User exist");
-                    username.requestFocus();
-
-                }
-
-                 */
-
-
-
-
-
                 if (dataSnapshot.exists()) {
                     username.setError(null);
                     username.setErrorEnabled(false);
@@ -158,8 +130,6 @@ public class Login extends AppCompatActivity {
                         intent.putExtra("email", emailFromDB);
                         intent.putExtra("phoneNo", phoneNoFromDB);
                         intent.putExtra("password", passwordFromDB);
-
-
 
                         startActivity(intent);
 

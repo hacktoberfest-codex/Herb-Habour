@@ -4,7 +4,7 @@ import android.content.ContentResolver;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Handler;
-// import android.support.annotation.NonNull;
+
 
 import android.os.Bundle;
 import android.view.View;
@@ -135,7 +135,7 @@ public class UploadPlant extends AppCompatActivity {
                             Toast.makeText(UploadPlant.this, "Upload successful", Toast.LENGTH_LONG).show();
                             Upload upload = new Upload(mEditTextFileName.getText().toString().trim(),
                                     taskSnapshot.getMetadata().getReference().getDownloadUrl().toString());
-                                    // taskSnapshot.getDownloadUrl().toString());
+
                             String uploadId = mDatabaseRef.push().getKey();
                             mDatabaseRef.child(uploadId).setValue(upload);
                         }
@@ -159,7 +159,11 @@ public class UploadPlant extends AppCompatActivity {
     }
 
     private void openImagesActivity() {
+
         Intent intent = new Intent(this, ImagesActivity.class);
         startActivity(intent);
+
+
+
     }
 }
