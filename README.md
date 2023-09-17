@@ -95,9 +95,26 @@ https://github.com/ITER-SIH/Team-70/assets/121545576/58f929d8-ed19-4467-a20f-adb
     implementation 'com.mikhaellopez:circularimageview:4.3.1'
 
 
+# Images
 
+<img src="https://github.com/ITER-SIH/Team-70/assets/121545576/89466914-d12d-46ad-bd78-80ca8a1ce437" alt=" " width="400" height ="600" />
  
+<img src="https://github.com/ITER-SIH/Team-70/assets/121545576/d8eacf0c-7385-4a89-b31d-15f43fae9ea0" alt=" " width="400" height ="600" />
 
+<img src="https://github.com/ITER-SIH/Team-70/assets/121545576/79c572fa-aca0-40fa-8f74-e659d0090783" alt=" " width="400" height ="600" />
+
+
+<img src="https://github.com/ITER-SIH/Team-70/assets/121545576/a1dd26f8-ea84-4868-9fdb-62cfcdf81b7d" alt=" " width="400" height ="600" />
+
+<img src="https://github.com/ITER-SIH/Team-70/assets/121545576/7e0f84c0-0fb5-4d02-baf9-b41ddc51cd48" alt=" " width="400" height ="600" />
+
+<img src="https://github.com/ITER-SIH/Team-70/assets/121545576/25cf6ca7-9143-4946-af37-6ba8f5033011" alt=" " width="400" height ="600" />
+
+
+<img src="https://github.com/ITER-SIH/Team-70/assets/121545576/0c83d685-fc45-4d05-ac25-f9d2422f4cc2" alt=" " width="400" height ="600" />
+
+
+<img src="https://github.com/ITER-SIH/Team-70/assets/121545576/ab33ca77-766e-4139-b487-33ac0b6492b0" alt=" " width="400" height ="600" />
 
 
 
