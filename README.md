@@ -12,7 +12,7 @@
   <br>
 
 ## Problem Statement ID	
-1343  Link 🔗 https://www.sih.gov.in/sih2023PS?technology_bucket=Ng==&category=U29mdHdhcmU=&organization=TWluaXN0cnkgb2YgQVlVU0g=&organization_type=QWxs
+1343  
 
 ## Problem Statement Title	
 Identification of Different Medicinal Plants/Raw materials through Image Processing Using Machine Learning Algorithms
