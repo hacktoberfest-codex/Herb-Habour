@@ -8,7 +8,7 @@
   <a href="<img src="![main_icon](https://github.com/Diksha566/Demo/assets/121545576/529d0d4a-c182-4fb1-8166-0813b21c06a4)
 " width="200"></a>
   <br>
-  HerbalHabour ☘️
+  Herb Habour ☘️
   <br>
 
 ## Problem Statement ID	
