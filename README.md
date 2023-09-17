@@ -31,6 +31,7 @@ Domain Bucket	MedTech / BioTech / HealthTech
 * JAVA
 * XML
 * MYSQL
+* Firebase
 
 ## DataBase
 * Link 🔗: https://www.kaggle.com/datasets/ichhadhari/leaf-images
