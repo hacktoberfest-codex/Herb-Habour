@@ -88,7 +88,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:onClick="scan"
+
                     android:orientation="vertical">
 
                     <ImageView
@@ -125,7 +125,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:onClick="profile"
+
                     android:orientation="vertical">
 
                     <ImageView
@@ -161,7 +161,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:onClick="herbs"
+
                     android:orientation="vertical">
 
                     <ImageView
@@ -197,22 +197,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:onClick="buy"
+
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_marginTop="18dp"
-                        android:src="@drawable/buy" />
+                        android:src="@drawable/view" />
 
                     <Button
-                        android:id="@+id/buy_btn"
+                        android:id="@+id/view_btn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/googlesans_bold"
-                        android:text="Buy"
+                        android:text="View plants"
                         android:background="#00000000"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -233,8 +233,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:onClick="games"
-                    android:orientation="vertical">
+
+                    android:orientation="vertical"
+                    >
 
                     <ImageView
                         android:layout_width="80dp"
@@ -269,7 +270,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:onClick="community"
+
                     android:orientation="vertical">
 
                     <ImageView
@@ -305,7 +306,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:onClick="website"
+
                     android:orientation="vertical">
 
                     <ImageView
@@ -341,7 +342,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:onClick="logout"
+
                     android:orientation="vertical">
 
                     <ImageView
