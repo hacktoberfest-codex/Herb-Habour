@@ -51,25 +51,26 @@ Domain Bucket	MedTech / BioTech / HealthTech
 # Working
 * **Signup and login** The signup feature allows new users to create accounts within your application. It's often the first interaction users have with your platform, making it a critical step in user onboarding. Ensure that login credentials (typically, email/username and password) are securely transmitted and verified
 
-https://github.com/Diksha566/Demo/assets/121545576/9a6e8e96-215e-4dfd-b759-fe4c72840332
 
- 
-
-
-
-
+https://github.com/ITER-SIH/Team-70/assets/121545576/5d8575b1-6dee-4157-bd85-7a1fda369b36
 
 
 # Features
+
+
+https://github.com/ITER-SIH/Team-70/assets/121545576/9bd6dccc-c021-48eb-97b5-1182bb2b086c
 * Image Scanning for Plant Information: Users can scan images of plants to obtain detailed information about them, which could include their scientific names, uses, and cultivation tips.
+
+https://github.com/ITER-SIH/Team-70/assets/121545576/58f929d8-ed19-4467-a20f-adb9ae737a87
 * A feature that allows volunteers and medicinal experts to contribute by adding new images and data about medicinal plants directly within the app. Additionally, users can upvote medicinal herbs, and the most highly voted ones will be shared with scientists and research professionals to gather more in-depth information.
+
+
 * Engaging Games and Quizzes: Interactive games and quizzes will captivate individuals of all age groups, encouraging them to join our community. Participants will not only nurture nature but also find opportunities to earn a living from their involvement.
 * Easy to use
-
- https://github.com/Diksha566/Demo/assets/121545576/f37a88ec-14a1-4d2c-9063-745e9a35196d
 
 
  
 
 
-# Images
+
+
